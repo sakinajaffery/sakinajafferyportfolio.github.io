@@ -1,0 +1,26 @@
+ /* Carousel image sizes */
+        #hobbyCarousel .carousel-item img {
+            width: 100%; /* responsive width */
+            height: 500px; /* keep the height fixed height */
+            object-fit: cover; /* don't want the image to be distorted */
+        }
+body{
+    background-color: rgb(222, 189, 239);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* Basic card styles */
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    background-color:white;
+  }
+  a {
+    color: black; /* Change this to set the default link color */
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: plum; /* Change this to set the link color on hover */
+  }
+  
